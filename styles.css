@@ -1,1 +1,11 @@
-
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+form {
+  margin: 0 auto;
+}
+form {
+  background-color: #1b1b32;
+  color: #f3f3f3;
+}
