@@ -18,9 +18,8 @@ body {
   height: 100vh;
   margin: 0;
   color: #f3f3f3;
-  background-image: linear-gradient(rgba(58, 58, 158, 0.8),rgba(136, 136, 206, 0.7)), url(https://media.istockphoto.com/id/1164885370/photo/making-a-few-adjustments-to-the-code.jpg?b=1&s=170667a&w=0&k=20&c=cpEIu7BkiiJwwUvb-d9l7gwHIM5yx0pON5ok2lfDfhQ=);
+   background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://media.istockphoto.com/id/1164885370/photo/making-a-few-adjustments-to-the-code.jpg?b=1&s=170667a&w=0&k=20&c=cpEIu7BkiiJwwUvb-d9l7gwHIM5yx0pON5ok2lfDfhQ=); */
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
 }
 fieldset {
@@ -35,11 +34,44 @@ input, textarea, select {
 }
 .lab {
   display: flex;
+  padding: 10px;
 }
 .formgroup {
   margin: 0 auto 1.25rem auto;
   padding: 0.25rem;
 }
-#name-label {
+#email-label {
   text-align: center;
+}
+.fs, .fs2 {
+  padding-top: 0%;
+}
+.fieldset, .fs {
+  padding-bottom: 0;
+}
+.formgroup1 {
+  margin: 0 auto;
+  padding: 0.25rem;
+}
+.d {
+  margin-top: 1.25rem;
+}
+#name-label {
+  border-bottom: 10px;
+}
+.space, dropdown {
+  padding-top: 5px;
+}
+#submit {
+  width: 100%;
+  display: block;
+  background: #37af65;
+  border: none;
+  color: #f3f3f3;
+  padding: 12px;
+}
+.butdiv {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 20px;
 }
