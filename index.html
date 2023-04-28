@@ -1,1 +1,66 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Survey Form</title>
+</head>
+<body>
+<h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description">We appreciate your time in taking this survey.</p>
+<form id="survey-form" action="home.html" method="get">
+  <fieldset>
+    <div>
+      <label for="" id="name-label">Name: </label>
+      <input type="text" name="name" placeholder="Enter Your Name" id="name" required>
+    </div>
+    <div>
+      <label for="" id="email-label">Email: </label>
+      <input type="email" name="email" placeholder="Enter Your Email" id="email" required>
+    </div>
+    <div>
+      <label for="" id="number-label">Number: </label>
+      <input type="number" name="number" placeholder="Number" id="number" min="1" max="100" required>
+    </div>
+ </fieldset>
+ <fieldset>
+   <div>
+    <label>Which best describes your current role?</label>
+    <select id="dropdown">
+      <option>Select Current Role</option>
+      <option>Student</option>
+      <option>Full-time</option>
+      <option>Part-time</option>
+    </select>
+   </div>
+   <div>
+    <label>Would you recommend freeCodeCamp to a friend?</label>
+   </div>
+   <div> 
+    <input type="radio" name="recommend" value="definitely">Definitely
+    <input type="radio" name="recommend" value="maybe">Maybe
+    <input type="radio" name="recommend" value="not suew">Not sure
+   </div>
+   <div>
+     <label>What course do you intend to take? </label>
+   </div>
+   <div>  
+     <input type="checkbox" name="course" value="frontend">Front-end
+     <input type="checkbox" name="course" value="backend">Back-end
+     <input type="checkbox" name="course" value="data science">Data Science
+   </div>
+</fieldset>
+<fieldset>
+  <div>
+    <label>Any comments or suggestions?</label>
+  </div>
+  <div>
+    <textarea id="comment" name="comments" placeholder="Tell Us Everything"></textarea>
+  </div>
+</fieldset>
+<button id="submit" name="submit">Submit</button>
+</form>
+</body>
+</html>
