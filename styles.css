@@ -9,3 +9,10 @@ form {
   background-color: #1b1b32;
   color: #f3f3f3;
 }
+body {
+   color: #f3f3f3;
+  background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
