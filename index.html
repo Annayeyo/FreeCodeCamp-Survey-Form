@@ -12,21 +12,21 @@
 <p id="description">We appreciate your time in taking this survey.</p>
 <form id="survey-form" action="home.html" method="get">
   <fieldset>
-    <div>
+    <div class="formgroup">
       <label for="" id="name-label">Name: </label>
       <input type="text" name="name" placeholder="Enter Your Name" id="name" required>
     </div>
-    <div>
+    <div class="formgroup">
       <label for="" id="email-label">Email: </label>
       <input type="email" name="email" placeholder="Enter Your Email" id="email" required>
     </div>
-    <div>
+    <div class="formgroup">
       <label for="" id="number-label">Number: </label>
       <input type="number" name="number" placeholder="Number" id="number" min="1" max="100" required>
     </div>
  </fieldset>
  <fieldset>
-   <div>
+   <div class="formgroup">
     <label>Which best describes your current role?</label>
     <select id="dropdown">
       <option>Select Current Role</option>
@@ -35,25 +35,37 @@
       <option>Part-time</option>
     </select>
    </div>
-   <div>
-    <label>Would you recommend freeCodeCamp to a friend?</label>
-   </div>
-   <div> 
-    <input type="radio" name="recommend" value="definitely">Definitely
-    <input type="radio" name="recommend" value="maybe">Maybe
-    <input type="radio" name="recommend" value="not suew">Not sure
+   <div class="formgroup">
+    <label >Would you reommend freeCodeCamp to a friend?</label>
    </div>
    <div>
-     <label>What course do you intend to take? </label>
+    <label class="lab">
+     <input type="radio" name="recommend" value="definitely" class="inline">Definitely
+    </label>
+    <label class="lab">
+     <input type="radio" name="recommend" value="maybe" class="inline">Maybe
+    </label>
+    <label class="lab">
+     <input type="radio" name="recommend" value="not suew" class="inline">Not sure
+    </label>
    </div>
-   <div>  
-     <input type="checkbox" name="course" value="frontend">Front-end
-     <input type="checkbox" name="course" value="backend">Back-end
-     <input type="checkbox" name="course" value="data science">Data Science
+   <div>
+     <label class="formgroup">What course do you intend to take? </label>
+   </div>
+   <div>
+     <label class="lab">
+      <input type="checkbox" name="course" value="frontend" class="inline">Front-end
+     </label>  
+     <label class="lab">
+      <input type="checkbox" name="course" value="backend" class="inline">Back-end
+    </label>
+    <label class="lab">
+     <input type="checkbox" name="course" value="data science" class="inline">Data Science
+    </label>
    </div>
 </fieldset>
 <fieldset>
-  <div>
+  <div class="formgroup">
     <label>Any comments or suggestions?</label>
   </div>
   <div>

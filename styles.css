@@ -6,13 +6,40 @@ form {
   margin: 0 auto;
 }
 form {
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 500px;
+  width: 90vw;
   background-color: #1b1b32;
   color: #f3f3f3;
 }
 body {
-   color: #f3f3f3;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  color: #f3f3f3;
   background-image: linear-gradient(rgba(58, 58, 158, 0.8),rgba(136, 136, 206, 0.7)), url(https://media.istockphoto.com/id/1164885370/photo/making-a-few-adjustments-to-the-code.jpg?b=1&s=170667a&w=0&k=20&c=cpEIu7BkiiJwwUvb-d9l7gwHIM5yx0pON5ok2lfDfhQ=);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+fieldset {
+  border: none;
+  padding: 2rem;
+}
+input, textarea, select {
+  width: 100%;
+}
+.inline {
+  width: unset;
+}
+.lab {
+  display: flex;
+}
+.formgroup {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+#name-label {
+  text-align: center;
 }
