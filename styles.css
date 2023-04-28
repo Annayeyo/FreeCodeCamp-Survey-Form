@@ -31,7 +31,8 @@ input, textarea, select {
 }
 .inline {
   width: unset;
-}
+} 
+
 .lab {
   display: flex;
   padding: 10px;
@@ -74,4 +75,10 @@ input, textarea, select {
   padding-left: 32px;
   padding-right: 32px;
   padding-bottom: 20px;
+}
+#name, #email, #number, #dropdown {
+  padding: 6px;
+}
+#comment {
+  padding-bottom: 70px;
 }
