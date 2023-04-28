@@ -11,7 +11,7 @@ form {
 }
 body {
    color: #f3f3f3;
-  background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-image: linear-gradient(rgba(58, 58, 158, 0.8),rgba(136, 136, 206, 0.7)), url(https://media.istockphoto.com/id/1164885370/photo/making-a-few-adjustments-to-the-code.jpg?b=1&s=170667a&w=0&k=20&c=cpEIu7BkiiJwwUvb-d9l7gwHIM5yx0pON5ok2lfDfhQ=);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
